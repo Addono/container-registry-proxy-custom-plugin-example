@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/github/license/Addono/container-registry-proxy-custom-plugin-example?style=flat-square)](https://github.com/Addono/container-registry-proxy/blob/master/LICENSE)
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://img.shields.io/badge/project%20status-Active-greengrass?style=flat-square)](https://www.repostatus.org/#active)
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/addono/container-registry-proxy-custom-plugin-example/Test?style=flat-square)<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
