@@ -5,7 +5,7 @@ repository:
   name: container-registry-proxy-custom-plugin-example
 
   # A short description of the repository that will show up on GitHub
-  description: A simple example of a custom plugin implementation.
+  description: A simple example of a custom plugin implementation for the container-registry-proxy.
 
   # A URL with more information about the repository
   homepage: https://github.com/Addono/container-registry-proxy-custom-plugin-example
