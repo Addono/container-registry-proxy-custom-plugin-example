@@ -8,7 +8,7 @@ repository:
   description: A simple example of a custom plugin implementation for the container-registry-proxy.
 
   # A URL with more information about the repository
-  homepage: https://github.com/Addono/container-registry-proxy-custom-plugin-example
+  homepage: https://github.com/Addono/container-registry-proxy
 
   # Either `true` to make the repository private, or `false` to make it public.
   private: false
