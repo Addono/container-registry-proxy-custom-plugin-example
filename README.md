@@ -41,7 +41,7 @@ yarn build --watch
 
 ### Editing
 
-To modify the plugin, open `src/plugin.ts` and modify the plugin by adding your logic to the `requestPipe` method of the by default exported object.
+To modify the plugin, open `./plugin.ts` and modify the plugin by adding your logic to the `requestPipe` method of the by default exported object.
 
 The `requestPipe` is function, which takes a `Request` object as it's only argument. Its return type is a promise of a (if desired modified) `Request` object, or otherwise `undefined` if the connection should be dropped.
 
