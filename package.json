@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "container-registry-proxy": "4.4.3",
-    "typescript": "^3.8.3"
+    "typescript": "^3.9.7"
   },
   "devDependencies": {
     "@types/node": "^14.0.24"
