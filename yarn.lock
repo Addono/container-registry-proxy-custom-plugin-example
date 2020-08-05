@@ -201,10 +201,10 @@
     strip-ansi "^5.0.0"
     through "^2.3.6"
 
-"@snyk/java-call-graph-builder@1.11.1":
-  version "1.11.1"
-  resolved "https://registry.yarnpkg.com/@snyk/java-call-graph-builder/-/java-call-graph-builder-1.11.1.tgz#1e1ca9cad0d5bee82d831f51f258ea7d46b06778"
-  integrity sha512-1SiAE78D8HQCE5fDKj6CeToFE/S52318oSP/X4flRwgFj9N78gD8i5O4oTkP9WwNMeFtW4Viqctc0sOK6Iea/w==
+"@snyk/java-call-graph-builder@1.12.3":
+  version "1.12.3"
+  resolved "https://registry.yarnpkg.com/@snyk/java-call-graph-builder/-/java-call-graph-builder-1.12.3.tgz#f0be2c2acb1df900bbd52c0a4d2e6efbbdb0dbac"
+  integrity sha512-eN32RcCq5J0Veo5NIbDUSb2KRNiVsZMt1w94bFYKxFt6F1tIoiv1CraXdTHSlgQosZ7tw93e8qdOKmQXOtK88Q==
   dependencies:
     "@snyk/graphlib" "2.1.9-patch"
     ci-info "^2.0.0"
@@ -815,10 +815,10 @@ color-name@~1.1.4:
   resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
   integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
 
-commander@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-5.1.0.tgz#46abbd1652f8e059bddaef99bbdcb2ad9cf179ae"
-  integrity sha512-P0CysNDQ7rtVw4QIQtm+MRxV66vKFSvlsQvGYXZWR3qFU0jlMKHZZZgw8e+8DSah4UDKMqnknRDQz+xuQXQ/Zg==
+commander@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-6.0.0.tgz#2b270da94f8fb9014455312f829a1129dbf8887e"
+  integrity sha512-s7EA+hDtTYNhuXkTlhqew4txMZVdszBmKWSPEMxGr8ru8JXR7bLUFIAtPhcSuFdJQ0ILMxnJi8GkQL0yvDy/YA==
 
 concat-map@0.0.1:
   version "0.0.1"
@@ -837,14 +837,14 @@ configstore@^5.0.1:
     write-file-atomic "^3.0.0"
     xdg-basedir "^4.0.0"
 
-container-registry-proxy@4.4.3:
-  version "4.4.3"
-  resolved "https://registry.yarnpkg.com/container-registry-proxy/-/container-registry-proxy-4.4.3.tgz#1db1af956e77c4eea9f9ba9e5aa9a2f534be1aae"
-  integrity sha512-jWICGX5X0tOn2HNBUatAm3Uxfj2WccJ2tt59iA/ADJvftDX2iW4xrdZhIxasvaY9nNh9UwR1J6wsI1q6SGKVuA==
+container-registry-proxy@4.4.6:
+  version "4.4.6"
+  resolved "https://registry.yarnpkg.com/container-registry-proxy/-/container-registry-proxy-4.4.6.tgz#3d0d3d857980349c1960aba28feee58a3998513a"
+  integrity sha512-EybwmTm5+U55nLBXYU0kuB7wHH6ahyn7F3SXHZx/GueeQKe4ozZ/kyySsNVDyEX91qDgPtftHXBDshuxw0GOQQ==
   dependencies:
     axios "^0.19.2"
-    commander "^5.1.0"
-    snyk "^1.349.0"
+    commander "^6.0.0"
+    snyk "^1.364.1"
 
 core-util-is@~1.0.0:
   version "1.0.2"
@@ -2665,13 +2665,13 @@ snyk-module@^2.0.2:
     debug "^3.1.0"
     hosted-git-info "^2.7.1"
 
-snyk-mvn-plugin@2.17.3:
-  version "2.17.3"
-  resolved "https://registry.yarnpkg.com/snyk-mvn-plugin/-/snyk-mvn-plugin-2.17.3.tgz#b9e4e23cde6f5748a99d7185142dfcd01b36df2d"
-  integrity sha512-yDlqPuNacYUdf4JlyW8dHcxJJC3BMOU01m5cuGhX6s8j88T79A0qrwUu8AJwCIjbDXpD1YSoS1Wb7gRdvDlbKA==
+snyk-mvn-plugin@2.18.2:
+  version "2.18.2"
+  resolved "https://registry.yarnpkg.com/snyk-mvn-plugin/-/snyk-mvn-plugin-2.18.2.tgz#d35e825ccfc2807c26bf6776116d46de03d3f115"
+  integrity sha512-A36YmfpeEXGsKoChm644DysKG40d5y5MZnldkpsbrLz37R3JMxkt4igMACZ9QJZAkiWjVs28hOKyyT1vuMPlHg==
   dependencies:
     "@snyk/cli-interface" "2.8.1"
-    "@snyk/java-call-graph-builder" "1.11.1"
+    "@snyk/java-call-graph-builder" "1.12.3"
     debug "^4.1.1"
     needle "^2.5.0"
     tmp "^0.1.0"
@@ -2824,10 +2824,10 @@ snyk-try-require@1.3.1, snyk-try-require@^1.1.1, snyk-try-require@^1.3.1:
     lru-cache "^4.0.0"
     then-fs "^2.0.0"
 
-snyk@^1.349.0:
-  version "1.364.1"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.364.1.tgz#927be09d1d1302158c8b01f25a32235d029e464d"
-  integrity sha512-B1nEFYgBdCN3/F1maPyQi90Avhe7FEC4a29JaME6sbRAMTWcEJysblqYPqgNQkVgqiQzxojXNhrnnzYCxl3Q7Q==
+snyk@^1.364.1:
+  version "1.369.3"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.369.3.tgz#8c0e980334bd3927573e11072518750c063bbbdc"
+  integrity sha512-I54pQeG7i/fLQfBQYK+hL/Yr3g9FPuSnVWKroRFdEaB6vfNSRBA2nd3cKPz9iTVm8v72dSZvixsvR6s+7iDi6g==
   dependencies:
     "@snyk/cli-interface" "2.8.1"
     "@snyk/dep-graph" "1.18.3"
@@ -2856,7 +2856,7 @@ snyk@^1.349.0:
     snyk-go-plugin "1.16.0"
     snyk-gradle-plugin "3.5.1"
     snyk-module "3.1.0"
-    snyk-mvn-plugin "2.17.3"
+    snyk-mvn-plugin "2.18.2"
     snyk-nodejs-lockfile-parser "1.26.3"
     snyk-nuget-plugin "1.18.1"
     snyk-php-plugin "1.9.0"
