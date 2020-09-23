@@ -16,7 +16,11 @@
 
 ## 🧐 About <a name = "about"></a>
 
-The Container Registry Proxy is a small proxy for communicating with a container registry. The end-goal of the project is to allow modifying traffic in-transit as to facilitate chaos engineering.
+The Container Registry Proxy (CRP) is a small proxy for communicating with a container registry. This proxy can monitor and modify traffic in-transit, as to facilitate additional logging and chaos engineering.
+
+Monitoring and modifying the traffic is delegated to a plugin system. This allows the proxy to be generally reusable and allow anyone to tune it to their needs without having to dive into the source code of the proxy.
+
+This repository is here to give you an example and starting point for creating custom plugins for the CRP. Custom plugins are plugins which are loaded from the file system by the CRP at runtime.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
@@ -35,6 +39,9 @@ yarn install
 ```
 
 ### Running Locally
+
+The following command will continuously compile the code of the plugin to plain JavaScript.
+
 ```bash
 yarn build --watch
 ```
