@@ -654,10 +654,10 @@ configstore@^5.0.1:
     write-file-atomic "^3.0.0"
     xdg-basedir "^4.0.0"
 
-container-registry-proxy@^4.4.11:
-  version "4.4.11"
-  resolved "https://registry.yarnpkg.com/container-registry-proxy/-/container-registry-proxy-4.4.11.tgz#4a25799f7c92b94b5db1c5d0189ecec52f1f65b8"
-  integrity sha512-yPUmYwC0+6kmlmRGrlamBEBjL2t+MQrQ6iQKetHFA160zwFFbAKeFbSkbwW1DvhL184j1Vhl+uc+NqbgazSKHA==
+container-registry-proxy@^4.4.12:
+  version "4.4.12"
+  resolved "https://registry.yarnpkg.com/container-registry-proxy/-/container-registry-proxy-4.4.12.tgz#a5f6afa27615b48f14b8027d600726a8aa20ff13"
+  integrity sha512-HD5CyLuQ1loPL7FbrViDiuf+qOdiImkkiUotwvaUtsKks6KkVZJa8wSSv+14AhV6ryLiHvp5v8P75gT5AlEcSA==
   dependencies:
     axios "^0.21.1"
     commander "^6.2.1"
