@@ -8,7 +8,7 @@
     "build": "tsc"
   },
   "dependencies": {
-    "container-registry-proxy": "^4.4.19",
+    "container-registry-proxy": "^4.4.20",
     "typescript": "^4.3.5"
   },
   "devDependencies": {
