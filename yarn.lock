@@ -7,7 +7,7 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.41.tgz#d0b939d94c1d7bd53d04824af45f1139b8c45615"
   integrity sha512-dueRKfaJL4RTtSa7bWeTK1M+VH+Gns73oCgzvYfHZywRCoPSd8EkXBL0mZ9unPTveBn+D9phZBaxuzpwjWkW0g==
 
-axios@^0.21.3:
+axios@^0.21.4:
   version "0.21.4"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.4.tgz#c67b90dc0568e5c1cf2b0b858c43ba28e2eda575"
   integrity sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==
@@ -19,12 +19,12 @@ commander@^6.2.1:
   resolved "https://registry.yarnpkg.com/commander/-/commander-6.2.1.tgz#0792eb682dfbc325999bb2b84fddddba110ac73c"
   integrity sha512-U7VdrJFnJgo4xjrHpTzu0yrHPGImdsmD95ZlgYSEajAn2JKzDhDTPG9kBTefmObL2w/ngeZnilk+OV9CG3d7UA==
 
-container-registry-proxy@^4.4.27:
-  version "4.4.27"
-  resolved "https://registry.yarnpkg.com/container-registry-proxy/-/container-registry-proxy-4.4.27.tgz#caa3880211aa8297b54e780611c4c5b44abd9d27"
-  integrity sha512-ecJQywTADXtb9g3UA6jhZwpRwNQeHsNbkSRieFw4f9JayoQW86vx+MxTirn/D3pNKUYiJZcdEQZSncsRlJp6AA==
+container-registry-proxy@^4.4.28:
+  version "4.4.28"
+  resolved "https://registry.yarnpkg.com/container-registry-proxy/-/container-registry-proxy-4.4.28.tgz#304db9abeea1835d3a36dd17c4e4d680e69e6cbe"
+  integrity sha512-P6ubjWN2i7DCs2xDVYJQv9ZN6dfozIxAbFNicOa/af0mC2xX5q/dnpKskSjxJ9XUiARbUeK0vlGMeNO3XgHfYA==
   dependencies:
-    axios "^0.21.3"
+    axios "^0.21.4"
     commander "^6.2.1"
     snyk "^1.685.0"
 
