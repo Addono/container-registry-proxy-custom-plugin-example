@@ -19,10 +19,10 @@ commander@^6.2.1:
   resolved "https://registry.yarnpkg.com/commander/-/commander-6.2.1.tgz#0792eb682dfbc325999bb2b84fddddba110ac73c"
   integrity sha512-U7VdrJFnJgo4xjrHpTzu0yrHPGImdsmD95ZlgYSEajAn2JKzDhDTPG9kBTefmObL2w/ngeZnilk+OV9CG3d7UA==
 
-container-registry-proxy@^4.4.28:
-  version "4.4.28"
-  resolved "https://registry.yarnpkg.com/container-registry-proxy/-/container-registry-proxy-4.4.28.tgz#304db9abeea1835d3a36dd17c4e4d680e69e6cbe"
-  integrity sha512-P6ubjWN2i7DCs2xDVYJQv9ZN6dfozIxAbFNicOa/af0mC2xX5q/dnpKskSjxJ9XUiARbUeK0vlGMeNO3XgHfYA==
+container-registry-proxy@^4.4.29:
+  version "4.4.29"
+  resolved "https://registry.yarnpkg.com/container-registry-proxy/-/container-registry-proxy-4.4.29.tgz#add703f088a24c29c753fa4d30b2f0b963646c66"
+  integrity sha512-yrxHf69U0oN3x01KpMpQzgEU4/GUaK06VgR2P4Nl9VDzDaXoK0CvK9DJVdzAPrJQQZ8sJqm7ZKPKR7uvGTgGJw==
   dependencies:
     axios "^0.21.4"
     commander "^6.2.1"
