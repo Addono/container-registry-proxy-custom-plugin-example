@@ -34,9 +34,9 @@ follow-redirects@^1.14.0:
   integrity sha512-1x0S9UVJHsQprFcEC/qnNzBLcIxsjAV905f/UkQxbclCsoTWlacCNOpQa/anodLl2uaEKFhfWOvM2Qg77+15zA==
 
 snyk@^1.685.0:
-  version "1.715.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.715.0.tgz#cabb784d335653dbeb379904e60b8612e7ca8364"
-  integrity sha512-rv1OqXsxuYT462RS5ntJaGyB6BPg82YaMqiVtNV7Hu2zI/cmVI6X9slTQ/BkkfBXyxCOHY9kWKTseLIR8dtRSw==
+  version "1.1024.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1024.0.tgz#f9ff2c8660da9cda34ea5807ee8731164b94ab0a"
+  integrity sha512-j0Hk/6kVV4pah3TwnhDCHEDnnIK+SkSYp6F/krz0Z+KfvG0fz3nORuufevjCV1ErIvcuZAnqQdRUVBPYTwfS6g==
 
 typescript@^4.8.4:
   version "4.8.4"
